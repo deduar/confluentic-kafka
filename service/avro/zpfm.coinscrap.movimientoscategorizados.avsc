@@ -1,0 +1,79 @@
+{
+  "fields": [
+    {
+      "default": null,
+      "name": "movimientoId",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "productoId",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "fechaOperacion",
+      "type": [
+        "null",
+        {
+          "logicalType": "timestamp-millis",
+          "type": "long"
+        }
+      ]
+    },
+    {
+      "default": null,
+      "name": "importe",
+      "type": [
+        "null",
+        {
+          "logicalType": "decimal",
+          "precision": 30,
+          "scale": 4,
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "default": null,
+      "name": "concepto",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "descripcionOperacion",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+       "default": null,
+       "name": "categoriaId",
+       "type": [
+            "null",
+            "long"
+        ]
+    },
+    {
+        "default": null,      
+        "name": "marcaComercial",
+        "type": [
+            "null",
+            "string"
+        ]
+    }   
+  ],
+  "name": "movimientoscategorizados",
+  "namespace": "com.coinscrap.abanca.kafka.avro",
+  "type": "record"
+}

@@ -1,0 +1,74 @@
+{
+  "fields": [
+    {
+      "default": null,
+      "name": "movimientoId",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "productoId",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "fechaOperacion",
+      "type": [
+        "null",
+        {
+          "logicalType": "timestamp-millis",
+          "type": "long"
+        }
+      ]
+    },
+    { 
+      "default": null,
+      "name": "co2",
+      "type": [
+            "null",
+            "float"
+        ]
+    },
+    { 
+      "default": null,
+      "name": "ch4",
+      "type": [
+            "null",
+            "float"
+        ]
+    } ,
+    { 
+      "default": null,
+      "name": "n2o",
+      "type": [
+            "null",
+            "float"
+        ]
+    } ,
+    { 
+      "default": null,
+      "name": "h2o",
+      "type": [
+            "null",
+            "float"
+        ]
+    } ,
+    { 
+      "default": null,
+      "name": "associated_plastic",
+      "type": [
+            "null",
+            "float"
+        ]
+    } 
+  ],
+  "name": "movimientoshuellacarbono",
+  "namespace": "com.coinscrap.abanca.kafka.avro",
+  "type": "record"
+}
